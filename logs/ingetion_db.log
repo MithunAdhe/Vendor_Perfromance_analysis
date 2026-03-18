@@ -1,0 +1,94 @@
+2026-03-11 22:39:44,626 - INFO - Creating Vendor SUmmary Table....
+2026-03-11 22:40:55,754 - INFO -    VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          26.27        36.99   1750                 145080   
+1          23.19        28.99   1750                 164038   
+2          18.24        24.99   1750                 187407   
+3          16.17        22.99   1750                 201682   
+4          21.89        29.99   1750                 138109   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FrieghtCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2026-03-11 22:40:55,779 - INFO - Cleaning data....
+2026-03-11 22:40:55,820 - INFO -    VendorNumber                VendorName  Brand              Description  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          26.27        36.99  1750.0                 145080   
+1          23.19        28.99  1750.0                 164038   
+2          18.24        24.99  1750.0                 187407   
+3          16.17        22.99  1750.0                 201682   
+4          21.89        29.99  1750.0                 138109   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FrieghtCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2026-03-11 22:40:55,829 - INFO - Ingesting data....
+2026-03-11 22:40:55,957 - INFO - Completed
+2026-03-12 18:32:34,004 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-12 18:32:34,033 - WARNING - No such comm: 0e7f57a5-8477-4f0e-8e06-28a0d4cf3e7f
+2026-03-12 18:32:34,033 - DEBUG - Current comms: []
+2026-03-12 20:45:34,464 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-12 20:45:34,542 - WARNING - No such comm: 8ce90465-6e0b-45d9-8541-cddfbb0b6074
+2026-03-12 20:45:34,560 - DEBUG - Current comms: []
+2026-03-13 20:36:51,211 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-13 20:36:51,260 - WARNING - No such comm: 7c3e773e-5bdc-4c8f-a630-1a29120687c8
+2026-03-13 20:36:51,260 - DEBUG - Current comms: []
+2026-03-13 21:14:53,396 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-13 21:14:53,429 - WARNING - No such comm: 2aa713f2-96a0-47d9-8e62-fb636e353467
+2026-03-13 21:14:53,430 - DEBUG - Current comms: []
+2026-03-14 09:02:49,239 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-14 09:02:49,288 - WARNING - No such comm: 72d23c0c-246e-4b2e-8678-2c0d2d0cfdc9
+2026-03-14 09:02:49,288 - DEBUG - Current comms: []
+2026-03-14 10:34:50,462 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-14 10:34:50,484 - WARNING - No such comm: 3ed73e39-e784-4def-a32e-362d002dc53a
+2026-03-14 10:34:50,484 - DEBUG - Current comms: []
+2026-03-16 09:34:16,504 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-16 09:34:16,511 - WARNING - No such comm: 986704fb-1dd8-43e0-ba08-aece63bd1e01
+2026-03-16 09:34:16,512 - DEBUG - Current comms: []
+2026-03-16 10:28:17,373 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-16 10:28:17,417 - WARNING - No such comm: 9d7db953-e009-4d9f-b076-76fbd01262bb
+2026-03-16 10:28:17,433 - DEBUG - Current comms: []
+2026-03-16 12:20:04,425 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-16 12:20:04,440 - WARNING - No such comm: bceb9c1b-859a-47c4-8129-a9462d3976f5
+2026-03-16 12:20:04,441 - DEBUG - Current comms: []
+2026-03-16 13:05:41,399 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-16 13:05:41,410 - WARNING - No such comm: 0443b910-b39b-42c4-b606-d8522dbd8392
+2026-03-16 13:05:41,410 - DEBUG - Current comms: []
+2026-03-16 13:53:51,553 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-16 13:53:51,584 - WARNING - No such comm: fadf1f2e-979a-432f-bc80-fb6ddeee4a1d
+2026-03-16 13:53:51,584 - DEBUG - Current comms: []
+2026-03-16 15:23:03,042 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-16 15:23:03,059 - WARNING - No such comm: e5f7214c-ace0-49b2-8300-d7d8ae5d52c4
+2026-03-16 15:23:03,061 - DEBUG - Current comms: []
