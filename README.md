@@ -170,8 +170,6 @@ project-folder/
 ---
 ## Screenshots
 
-## 📸 Screenshots
-
 ### Brands for Promotional or Pricing Adjustments
 <p align="center">
   <img src="Brands for Promotional or Pricing Adjustments.png" width="800"/>
@@ -212,10 +210,14 @@ project-folder/
   <img src="Top 10 Vendors Purchase Contribution %.png" width="800"/>
 </p>
 
+---
+
 ## Author
 
 Mithun Adhe
+
 Email: mithunadhe1664@gmail.com 
+
 LinkedIn: https://linkedin.com/in/mithun-adhe
 
 
